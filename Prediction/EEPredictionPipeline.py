@@ -55,7 +55,7 @@ class EEPredictionPipeline:
 
             for j in range(2):
 
-                with open(f"column_to_drop_y{j + 1}.txt", 'r') as f:
+                with open(f"column_to_drop_Y{j + 1}.txt", 'r') as f:
                     val = f.read()
 
                 col_to_drop = val.split(",")
