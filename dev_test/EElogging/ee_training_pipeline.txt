@@ -1,0 +1,60 @@
+2022-05-10/20:43:40		 Start of Prediction Pipeline
+2022-05-10/20:43:40		 Error while trying to scale data: [Errno 2] No such file or directory: 'prediction_file.csv'
+2022-05-10/20:44:13		 Start of Prediction Pipeline
+2022-05-10/20:44:13		 Prediction data obtained
+2022-05-10/20:44:13		 Data Preprocessing started
+2022-05-10/20:44:13		 Error while trying to scale data: "['id'] not found in axis"
+2022-05-10/20:44:41		 Start of Prediction Pipeline
+2022-05-10/20:44:41		 Prediction data obtained
+2022-05-10/20:44:41		 Data Preprocessing started
+2022-05-10/20:44:41		 Error while trying to scale data: "['ID'] not found in axis"
+2022-05-10/20:47:36		 Start of Prediction Pipeline
+2022-05-10/20:47:36		 Prediction data obtained
+2022-05-10/20:47:36		 Data Preprocessing started
+2022-05-10/20:47:36		 Error while trying to scale data: "['ID'] not found in axis"
+2022-05-10/20:48:05		 Start of Prediction Pipeline
+2022-05-10/20:48:05		 Error while trying to scale data: [Errno 2] No such file or directory: '../prediction_file.csv'
+2022-05-10/20:53:09		 Start of Prediction Pipeline
+2022-05-10/20:53:09		 Error while trying to scale data: [Errno 2] No such file or directory: '../prediction_file.csv'
+2022-05-10/20:55:02		 Start of Prediction Pipeline
+2022-05-10/20:55:02		 Prediction data obtained
+2022-05-10/20:55:02		 Data Preprocessing started
+2022-05-10/20:55:02		 Error while trying to scale data: [Errno 2] No such file or directory: 'column_to_drop_y1.txt'
+2022-05-10/20:55:18		 Start of Prediction Pipeline
+2022-05-10/20:55:18		 Prediction data obtained
+2022-05-10/20:55:18		 Data Preprocessing started
+2022-05-10/20:55:18		 Error while trying to scale data: [Errno 2] No such file or directory: 'Models/scalar.pickle'
+2022-05-10/20:55:53		 Start of Prediction Pipeline
+2022-05-10/20:55:53		 Prediction data obtained
+2022-05-10/20:55:53		 Data Preprocessing started
+2022-05-10/20:55:54		 Error while trying to scale data: 'id'
+2022-05-10/20:56:05		 Start of Prediction Pipeline
+2022-05-10/20:56:05		 Prediction data obtained
+2022-05-10/20:56:05		 Data Preprocessing started
+2022-05-10/20:56:06		 Error while trying to scale data: feature_names mismatch: ['x1', 'x3', 'x7', 'x8'] ['X1', 'X3', 'X7', 'X8']
+expected x1, x3, x8, x7 in input data
+training data did not have the following fields: X8, X3, X7, X1
+2022-05-11/15:45:21		 Start of Prediction Pipeline
+2022-05-11/15:45:21		 Prediction data obtained
+2022-05-11/15:45:21		 Data Preprocessing started
+2022-05-11/15:45:22		 Error while trying to scale data: 'NoneType' object has no attribute 'predict'
+2022-05-11/15:47:45		 Start of Prediction Pipeline
+2022-05-11/15:47:45		 Prediction data obtained
+2022-05-11/15:47:45		 Data Preprocessing started
+2022-05-11/15:47:45		 Error while trying to scale data: 'id'
+2022-05-11/15:48:05		 Start of Prediction Pipeline
+2022-05-11/15:48:05		 Prediction data obtained
+2022-05-11/15:48:05		 Data Preprocessing started
+2022-05-11/15:48:06		 End of Prediction Pipeline
+2022-05-11/20:44:42		 Start of Prediction Pipeline
+2022-05-11/20:44:42		 Prediction data obtained
+2022-05-11/20:44:42		 Data Preprocessing started
+2022-05-11/20:44:45		 End of Prediction Pipeline
+2022-05-11/20:45:14		 Start of Prediction Pipeline
+2022-05-11/20:45:14		 Prediction data obtained
+2022-05-11/20:45:14		 Data Preprocessing started
+2022-05-11/20:45:15		 End of Prediction Pipeline
+2022-05-11/20:46:21		 Start of Prediction Pipeline
+2022-05-11/20:46:21		 Prediction data obtained
+2022-05-11/20:46:21		 Data Preprocessing started
+2022-05-11/20:46:22		 End of Prediction Pipeline

@@ -1,0 +1,34 @@
+2022-05-13/19:24:17		 Length of year of file = 4, Number of columns = 8
+2022-05-13/19:24:17		 Good and Bad file directory created
+2022-05-13/19:24:17		 ENB2012_data.xlsx is valid!! moved to GoodRaw folder
+2022-05-13/19:24:17		 Column Length Validation Started!!
+2022-05-13/19:24:18		 ENB2012_data.xlsx validated. File remains in Good Folder
+2022-05-13/19:24:18		 Column Length Validation Completed!!
+2022-05-13/19:24:18		 Missing Values Validation Started!!
+2022-05-13/19:24:31		 Length of year of file = 4, Number of columns = 8
+2022-05-13/19:24:31		 BadRaw directory deleted successfully!!!
+2022-05-13/19:24:31		 GoodRaw directory deleted successfully!!!
+2022-05-13/19:24:31		 Good and Bad file directory created
+2022-05-13/19:24:31		 ENB2012_data.xlsx is valid!! moved to GoodRaw folder
+2022-05-13/19:24:31		 Column Length Validation Started!!
+2022-05-13/19:24:31		 ENB2012_data.xlsx validated. File remains in Good Folder
+2022-05-13/19:24:31		 Column Length Validation Completed!!
+2022-05-13/19:24:31		 Missing Values Validation Started!!
+2022-05-13/19:26:38		 Length of year of file = 4, Number of columns = 8
+2022-05-13/19:26:38		 BadRaw directory deleted successfully!!!
+2022-05-13/19:26:38		 GoodRaw directory deleted successfully!!!
+2022-05-13/19:26:38		 Good and Bad file directory created
+2022-05-13/19:26:38		 ENB2022_data.xlsx is valid!! moved to GoodRaw folder
+2022-05-13/19:26:38		 Column Length Validation Started!!
+2022-05-13/19:26:38		 ENB2022_data.xlsx validated. File remains in Good Folder
+2022-05-13/19:26:38		 Column Length Validation Completed!!
+2022-05-13/19:26:38		 Missing Values Validation Started!!
+2022-05-13/19:27:44		 Length of year of file = 4, Number of columns = 8
+2022-05-13/19:27:44		 BadRaw directory deleted successfully!!!
+2022-05-13/19:27:44		 GoodRaw directory deleted successfully!!!
+2022-05-13/19:27:44		 Good and Bad file directory created
+2022-05-13/19:27:44		 ENB2012_data.xlsx is valid!! moved to GoodRaw folder
+2022-05-13/19:27:44		 Column Length Validation Started!!
+2022-05-13/19:27:44		 ENB2012_data.xlsx validated. File remains in Good Folder
+2022-05-13/19:27:44		 Column Length Validation Completed!!
+2022-05-13/19:27:44		 Missing Values Validation Started!!

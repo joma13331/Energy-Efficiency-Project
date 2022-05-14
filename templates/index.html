@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Energy Efficiency Project</title>
+        <link rel="stylesheet" href="../static/css/main.css">
+
+    </head>
+
+    <body>
+        <div id="container">
+            
+            <h1 id="project_name">
+                Energy Efficiency Project
+            </h1>
+
+            <p id="logo"><img src={{image_url}} alt="iNeuron Logo" width=200px></p>
+
+            <div id="description">
+                <p>
+                    This Web Application implements a Machine Learning Solution to determine the heating and cooling load required by building
+                    for Energy Effiecient consumption of energy.
+                    In order to determine both the loads the following details are required:
+                </p>
+
+                <ol>
+                    <li>Relative Compactness</li>
+                    <li>Surface Area</li>
+                    <li>Wall Area</li>
+                    <li>Roof Area</li>
+                    <li>Overall Height</li>
+                    <li>Orientation</li>
+                    <li>Glazing Area</li>
+                    <li>Glazing Area Distribution</li>
+                </ol>
+                <p> To know more about these inputs click here.</p>
+            </div>
+
+            <div id="predict">
+                <h2>Predict</h2>
+                <form action="/prediction" method="post" enctype="multipart/form-data">
+                    <input type="file" name="dataset" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+                    <p><input type="submit" value="Predict"> <input type="reset"></p>
+                    <input type="text" name="check">
+                    <p>To get a prediction on heating and cooling loads upload a .xlsx (Excel) file in the following format</p>
+                    <ul>
+                        <li>Filename in format "ENB_{four_digit_year}_data.xlsx"</li>
+                        <li>Column Names in the first row in following format:</li>
+                        <ol>
+                            <li>First Column Heading "X1"(Relative Compactness)</li>
+                            <li>Second Column Heading "X2"(Surface Area)</li>
+                            <li>Third Column Heading "X3"(Wall Area)</li>
+                            <li>Fourth Column Heading "X4"(Roof Area)</li>
+                            <li>Fifth Column Heading "X5"(Overall Height)</li>
+                            <li>Sixth Column Heading "X6"(Orientation)</li>
+                            <li>Seventh Column Heading "X7"(Glazing Area)</li>
+                            <li>Eight Column Heading "X8"(Glazing Area Distribution)</li>
+                        </ol>
+                        <li> The data to be predicted on should start from 2nd row</li>
+                    </ul>
+
+                </form>
+                
+            </div>
+
+            <div id="train">
+                <h2>Train</h2>
+                <form action="/train" method="post" enctype="multipart/form-data">
+                    <input type="file" name="train_dataset" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+                    <p><input type="submit" value="Train"> <input type="reset"></p>
+                    <p>To train a model to obtain heating and cooling loads upload a .xlsx (Excel) file in the following format</p>
+                    <ul>
+                        <li>Filename in format "ENB_{four_digit_year}_data.xlsx"</li>
+                        <li>Column Names in the first row in following format:</li>
+                        <ol>
+                            <li>First Column Heading "X1"(Relative Compactness)</li>
+                            <li>Second Column Heading "X2"(Surface Area)</li>
+                            <li>Third Column Heading "X3"(Wall Area)</li>
+                            <li>Fourth Column Heading "X4"(Roof Area)</li>
+                            <li>Fifth Column Heading "X5"(Overall Height)</li>
+                            <li>Sixth Column Heading "X6"(Orientation)</li>
+                            <li>Seventh Column Heading "X7"(Glazing Area)</li>
+                            <li>Eight Column Heading "X8"(Glazing Area Distribution)</li>
+                            <li>Ninth Column Heading "Y1"(Heating Load)</li>
+                            <li>Tenth Column Heading "Y2"(Cooling Load)</li>
+                        </ol>
+                        <li> The data to be trained on should start from 2nd row</li>
+                    </ul>
+
+                </form>
+                <p>Warning: Training Takes a lot of time</p>
+            </div>
+        </div>
+
+    </body>
+</html>

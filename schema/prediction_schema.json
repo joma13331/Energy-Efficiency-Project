@@ -1,0 +1,15 @@
+{
+  "SampleFileName": "ENB2012_data.csv",
+  "LengthOfYear": 4,
+  "NumberOfColumns": 8,
+  "ColumnNames":{
+    "X1": "float",
+    "X2": "float",
+    "X3": "float",
+    "X4": "float",
+    "X5": "float",
+    "X6": "float",
+    "X7": "float",
+    "X8": "float"
+  }
+}

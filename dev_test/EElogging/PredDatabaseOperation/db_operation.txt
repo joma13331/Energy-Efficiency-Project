@@ -1,0 +1,13 @@
+2022-05-11/20:44:42		 Connection Unsuccessful with cassandra database: [Errno 2] No such file or directory: 'secure-connect-ineuron.zip'
+2022-05-11/20:44:42		 The table for Good Data was Not created: [Errno 2] No such file or directory: 'secure-connect-ineuron.zip'
+2022-05-11/20:44:42		 Error while downloading good data into csv file: [Errno 2] No such file or directory: 'secure-connect-ineuron.zip'
+2022-05-11/20:45:28		 Connection successful with cassandra database
+2022-05-11/20:45:29		 accessed the energy_efficiency_internship keyspace
+2022-05-11/20:45:29		 The table for Good Data created
+2022-05-11/20:45:30		 Any row if existing deleted
+2022-05-11/20:45:31		 Session terminated create table operation
+2022-05-11/20:45:46		 Connection successful with cassandra database
+2022-05-11/20:45:46		 accessed the energy_efficiency_internship keyspace
+2022-05-11/20:45:46		 Error while uploading data to good_pred_data table: [WinError 3] The system cannot find the path specified: 'DIV/PredictionData/GoodRaw/'
+2022-05-11/20:45:49		 Session terminated insert data operation
+2022-05-11/20:45:49		 Error while downloading good data into csv file: [WinError 3] The system cannot find the path specified: 'DIV/PredictionData/GoodRaw/'

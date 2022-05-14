@@ -1,0 +1,26 @@
+2022-05-10/20:44:13		 There was an ERROR while deleting columns: "['id'] not found in axis"
+2022-05-10/20:44:41		 There was an ERROR while deleting columns: "['ID'] not found in axis"
+2022-05-10/20:47:36		 There was an ERROR while deleting columns: "['ID'] not found in axis"
+2022-05-10/20:55:02		 The following columns were dropped: ID
+2022-05-10/20:55:18		 The following columns were dropped: ID
+2022-05-10/20:55:18		 The following columns were dropped: ['X4', 'X5', 'X2', 'X6']
+2022-05-10/20:55:53		 The following columns were dropped: ID
+2022-05-10/20:55:53		 The following columns were dropped: ['X4', 'X5', 'X2', 'X6']
+2022-05-10/20:56:05		 The following columns were dropped: ID
+2022-05-10/20:56:05		 The following columns were dropped: ['X4', 'X5', 'X2', 'X6']
+2022-05-11/15:45:21		 The following columns were dropped: ID
+2022-05-11/15:45:21		 The following columns were dropped: ['X5', 'X6', 'X4', 'X2']
+2022-05-11/15:47:45		 The following columns were dropped: ID
+2022-05-11/15:47:45		 The following columns were dropped: ['X5', 'X6', 'X4', 'X2']
+2022-05-11/15:48:05		 The following columns were dropped: ID
+2022-05-11/15:48:05		 The following columns were dropped: ['X5', 'X6', 'X4', 'X2']
+2022-05-11/15:48:06		 The following columns were dropped: ['X5', 'X6', 'X4', 'X2']
+2022-05-11/20:44:42		 The following columns were dropped: ID
+2022-05-11/20:44:42		 The following columns were dropped: ['X5', 'X6', 'X4', 'X2']
+2022-05-11/20:44:45		 The following columns were dropped: ['X5', 'X6', 'X4', 'X2']
+2022-05-11/20:45:14		 The following columns were dropped: ID
+2022-05-11/20:45:14		 The following columns were dropped: ['X5', 'X6', 'X4', 'X2']
+2022-05-11/20:45:14		 The following columns were dropped: ['X5', 'X6', 'X4', 'X2']
+2022-05-11/20:46:21		 The following columns were dropped: ID
+2022-05-11/20:46:21		 The following columns were dropped: ['X5', 'X6', 'X4', 'X2']
+2022-05-11/20:46:22		 The following columns were dropped: ['X5', 'X6', 'X4', 'X2']

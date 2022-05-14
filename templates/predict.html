@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Energy Efficiency Project</title>
+        <link rel="stylesheet" href="static/css/predict.css">
+    </head>
+    <body>
+        <div id="container">
+            
+            <h1 id="project_name">
+                Energy Efficiency Project
+            </h1>
+
+            <p id="logo"><img src={{image_url}} alt="iNeuron Logo" width=200px ></p>
+
+            <div id="pred_result">
+
+                <h2>Prediction Result</h2>
+                <h1 id="message">{{message}}</h1>
+                
+                <table>
+                    <tr>
+                        <th>Relative Compactness</th>
+                        <th>Surface Area</th>
+                        <th>Wall Area</th>
+                        <th>Roof Area</th>
+                        <th>Overall Height</th>
+                        <th>Orientation</th>
+                        <th>Glazing Area</th>
+                        <th>Glazing Area Distribution</th>
+                        <th>Heating Load</th>
+                        <th>Cooling Load</th>
+                    </tr>
+                    {%for record in records%}
+                    <tr>
+                        <td>{{record['X1']}}</td>
+                        <td>{{record['X2']}}</td>
+                        <td>{{record['X3']}}</td>
+                        <td>{{record['X4']}}</td>
+                        <td>{{record['X5']}}</td>
+                        <td>{{record['X6']}}</td>
+                        <td>{{record['X7']}}</td>
+                        <td>{{record['X8']}}</td>
+                        <td>{{record['Y1']}}</td>
+                        <td>{{record['Y2']}}</td>
+                    </tr>
+                    {%endfor%}
+                </table>
+
+                <h2><a href="/">CLICK HERE TO GO BACK TO HOME PAGE</a></h2>
+                
+            </div>
+        </div>
+    </body>
+</html>

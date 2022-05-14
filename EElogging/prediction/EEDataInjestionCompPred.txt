@@ -1,0 +1,28 @@
+2022-05-13/19:24:17		 Start of Injestion and Validation
+2022-05-13/19:24:18		 Raw Prediction Data Validation complete
+2022-05-13/19:24:18		 Start of Data Transformation
+2022-05-13/19:24:18		 Data Transformation Complete
+2022-05-13/19:24:18		 Start of upload of the Good Prediction Data to Cassandra Database
+2022-05-13/19:24:18		 End of upload of the Good Prediction Data to Cassandra Database
+2022-05-13/19:24:18		 End of Injestion and Validation
+2022-05-13/19:24:31		 Start of Injestion and Validation
+2022-05-13/19:24:31		 Raw Prediction Data Validation complete
+2022-05-13/19:24:31		 Start of Data Transformation
+2022-05-13/19:24:31		 Data Transformation Complete
+2022-05-13/19:24:31		 Start of upload of the Good Prediction Data to Cassandra Database
+2022-05-13/19:24:32		 End of upload of the Good Prediction Data to Cassandra Database
+2022-05-13/19:24:32		 End of Injestion and Validation
+2022-05-13/19:26:38		 Start of Injestion and Validation
+2022-05-13/19:26:38		 Raw Prediction Data Validation complete
+2022-05-13/19:26:38		 Start of Data Transformation
+2022-05-13/19:26:39		 Data Transformation Complete
+2022-05-13/19:26:39		 Start of upload of the Good Prediction Data to Cassandra Database
+2022-05-13/19:26:39		 End of upload of the Good Prediction Data to Cassandra Database
+2022-05-13/19:26:39		 End of Injestion and Validation
+2022-05-13/19:27:44		 Start of Injestion and Validation
+2022-05-13/19:27:44		 Raw Prediction Data Validation complete
+2022-05-13/19:27:44		 Start of Data Transformation
+2022-05-13/19:27:45		 Data Transformation Complete
+2022-05-13/19:27:45		 Start of upload of the Good Prediction Data to Cassandra Database
+2022-05-13/19:27:45		 End of upload of the Good Prediction Data to Cassandra Database
+2022-05-13/19:27:45		 End of Injestion and Validation

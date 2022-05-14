@@ -1,0 +1,29 @@
+2022-05-11/20:43:38		 Start of Injestion and Validation
+2022-05-11/20:43:38		 Error During Injestion and Validation Phase[Errno 2] No such file or directory: 'schema/prediction_schema.json'
+2022-05-11/20:43:54		 Start of Injestion and Validation
+2022-05-11/20:43:54		 Error During Injestion and Validation Phase[WinError 267] The directory name is invalid: '../Uploaded_Files/ENB2022_data.xlsx'
+2022-05-11/20:44:25		 Start of Injestion and Validation
+2022-05-11/20:44:26		 Raw Prediction Data Validation complete
+2022-05-11/20:44:26		 Start of Data Transformation
+2022-05-11/20:44:26		 Error During Injestion and Validation Phase[WinError 3] The system cannot find the path specified: 'DIV/PredictionData/GoodRaw/'
+2022-05-11/20:44:41		 Start of Injestion and Validation
+2022-05-11/20:44:41		 Raw Prediction Data Validation complete
+2022-05-11/20:44:41		 Start of Data Transformation
+2022-05-11/20:44:42		 Data Transformation Complete
+2022-05-11/20:44:42		 Start of upload of the Good Prediction Data to Cassandra Database
+2022-05-11/20:44:42		 End of upload of the Good Prediction Data to Cassandra Database
+2022-05-11/20:44:42		 End of Injestion and Validation
+2022-05-11/20:45:13		 Start of Injestion and Validation
+2022-05-11/20:45:13		 Raw Prediction Data Validation complete
+2022-05-11/20:45:13		 Start of Data Transformation
+2022-05-11/20:45:14		 Data Transformation Complete
+2022-05-11/20:45:14		 Start of upload of the Good Prediction Data to Cassandra Database
+2022-05-11/20:45:14		 End of upload of the Good Prediction Data to Cassandra Database
+2022-05-11/20:45:14		 End of Injestion and Validation
+2022-05-11/20:46:20		 Start of Injestion and Validation
+2022-05-11/20:46:21		 Raw Prediction Data Validation complete
+2022-05-11/20:46:21		 Start of Data Transformation
+2022-05-11/20:46:21		 Data Transformation Complete
+2022-05-11/20:46:21		 Start of upload of the Good Prediction Data to Cassandra Database
+2022-05-11/20:46:21		 End of upload of the Good Prediction Data to Cassandra Database
+2022-05-11/20:46:21		 End of Injestion and Validation
