@@ -1,12 +1,3 @@
-2022-05-13/19:24:18		 The following columns were dropped: ID
-2022-05-13/19:24:18		 The following columns were dropped: ['X6', 'X2', 'X5', 'X4']
-2022-05-13/19:24:21		 The following columns were dropped: ['X6', 'X2', 'X5', 'X4']
-2022-05-13/19:24:32		 The following columns were dropped: ID
-2022-05-13/19:24:32		 The following columns were dropped: ['X6', 'X2', 'X5', 'X4']
-2022-05-13/19:24:32		 The following columns were dropped: ['X6', 'X2', 'X5', 'X4']
-2022-05-13/19:26:39		 The following columns were dropped: ID
-2022-05-13/19:26:39		 The following columns were dropped: ['X6', 'X2', 'X5', 'X4']
-2022-05-13/19:26:39		 The following columns were dropped: ['X6', 'X2', 'X5', 'X4']
-2022-05-13/19:27:45		 The following columns were dropped: ID
-2022-05-13/19:27:45		 The following columns were dropped: ['X6', 'X2', 'X5', 'X4']
-2022-05-13/19:27:45		 The following columns were dropped: ['X6', 'X2', 'X5', 'X4']
+2022-05-15/08:54:03		 The following columns were dropped: ID
+2022-05-15/08:54:03		 The following columns were dropped: ['X5', 'X2', 'X4', 'X6']
+2022-05-15/08:54:05		 The following columns were dropped: ['X5', 'X2', 'X4', 'X6']

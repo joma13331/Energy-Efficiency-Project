@@ -250,7 +250,7 @@ class EEDBOperationTrain:
             try:
                 session.shutdown()
                 log_file = open(self.log_path, 'a+')
-                message = f"Session terminated after creating table{self.table_name}"
+                message = f"Session terminated after downloading good data into csv file from table{self.table_name}"
                 self.logger.log(log_file, message)
                 log_file.close()
 

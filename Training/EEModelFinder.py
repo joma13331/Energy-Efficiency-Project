@@ -232,7 +232,7 @@ class EEModelFinder:
 
             param_grid = {
                 "n_estimators": [50, 100, 130, 150],
-                'criterion': ['squared_error', 'absolute_error', 'poisson'],
+                'criterion': ['mse', 'mae'],
                 'min_samples_split': [2, 3, 4, 5],
                 'max_features': ['auto', 'sqrt', 'log2'],
                 'ccp_alpha': np.arange(0, 0.012, 0.001),

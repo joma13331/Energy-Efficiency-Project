@@ -17,14 +17,14 @@ CORS(app)
 
 @app.route("/", methods=['GET'])
 @cross_origin()
-def home_page():
+def ee_home_page():
     img_url = url_for('static', filename='ineuron-logo.webp')
     return render_template('index.html', image_url=img_url)
 
 
 @app.route("/train", methods=["POST"])
 @cross_origin()
-def train_route():
+def ee_train_route():
     img_url = url_for('static', filename='ineuron-logo.webp')
     try:
 
@@ -72,15 +72,13 @@ def train_route():
 
 @app.route('/prediction', methods=["POST"])
 @cross_origin()
-def prediction_route():
+def ee_prediction_route():
     img_url = url_for('static', filename='ineuron-logo.webp')
     try:
 
         if request.form is not None:
 
-            print(request.files)
             file_item = request.files['dataset']
-            print(type(file_item))
             if file_item.filename:
                 file_name = "ENB2022_data.xlsx"
 
@@ -114,16 +112,33 @@ def prediction_route():
 
     except ValueError as e:
         message = f"Value Error: {str(e)}\n TRY AGAIN"
-        print(message)
         return render_template("predict.html", message=message, image_url=img_url)
     except KeyError as e:
         message = f"KeyError: {str(e)}\n TRY AGAIN"
-        print(message)
         return render_template("predict.html", message=message, image_url=img_url)
     except Exception as e:
         message = f"Error: {str(e)}\n TRY AGAIN"
-        print(message)
         return render_template("predict.html", message=message, image_url=img_url)
+
+
+@app.route("/logs", methods=["POST"])
+@cross_origin()
+def ee_get_logs():
+    img_url = url_for('static', filename='ineuron-logo.webp')
+    try:
+        if request.form is not None:
+            log_type = request.form['log_type']
+
+            with open(os.path.join("EElogging/", log_type), "r") as f:
+                logs = f.readlines()
+            return render_template("logs.html", heading=log_type.split("/")[1], logs=logs, image_url=img_url)
+        else:
+            message = "No logs found"
+            return render_template("logs.html", message=message, image_url=img_url)
+
+    except Exception as e:
+        message = f"Error: {str(e)}"
+        return render_template("logs.html", heading=message, image_url=img_url)
 
 
 port = int(os.getenv("PORT", 5000))

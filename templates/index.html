@@ -62,6 +62,24 @@
                     </ul>
 
                 </form>
+
+                <h2>Prediction Logs</h2>
+                <form action="/logs" method="post">
+                    <p>Select the logs you want to see.</p>
+                    <ul>
+                        <li><input type="radio" name="log_type" value="prediction/EEBeforeUploadPred.txt">EEBeforeUploadPred</li>
+                        <li><input type="radio" name="log_type" value="prediction/EEDataFormatPred.txt">EEDataFormatPred</li>
+                        <li><input type="radio" name="log_type" value="prediction/EEDataInjestionCompPred.txt">EEDataInjestionCompPred</li>
+                        <li><input type="radio" name="log_type" value="prediction/EEDataLoaderPred.txt">EEDataLoaderPred</li>
+                        <li><input type="radio" name="log_type" value="prediction/EEDBOperationPred.txt">EEDBOperationPred</li>
+                        <li><input type="radio" name="log_type" value="prediction/EEPredEda.txt">EEPredEda</li>
+                        <li><input type="radio" name="log_type" value="prediction/EEFeatureEngineeringPred.txt">EEFeatureEngineeringPred</li>
+                        <li><input type="radio" name="log_type" value="prediction/EEFeatureSelectionPred.txt">EEFeatureSelectionPred</li>
+                        <li><input type="radio" name="log_type" value="prediction/EEPredictionPipeline.txt">EEPredictionPipeline</li>
+                    </ul>
+                    <p><input type="submit" value="Check Logs"></p>
+
+                </form>
                 
             </div>
 
@@ -88,6 +106,26 @@
                         </ol>
                         <li> The data to be trained on should start from 2nd row</li>
                     </ul>
+
+                </form>
+
+                <h2>Training Logs</h2>
+                <form action="/logs" method="post">
+                    <p>Select the logs you want to see.</p>
+                    <ul>
+                        <li><input type="radio" name="log_type" value="training/EEBeforeUploadTrain.txt">EEBeforeUploadTrain</li>
+                        <li><input type="radio" name="log_type" value="training/EEClusteringTrain.txt">EEClusteringTrain</li>
+                        <li><input type="radio" name="log_type" value="training/EEDataFormatTrain.txt">EEDataFormatTrain</li>
+                        <li><input type="radio" name="log_type" value="training/EEDataInjestionCompTrain.txt">EEDataInjestionCompTrain</li>
+                        <li><input type="radio" name="log_type" value="training/EEDataLoaderTrain.txt">EEDataLoaderTrain</li>
+                        <li><input type="radio" name="log_type" value="training/EEDBOperationTrain.txt">EEDBOperationTrain</li>
+                        <li><input type="radio" name="log_type" value="training/EEEdaTrain.txt">EEEdaTrain</li>
+                        <li><input type="radio" name="log_type" value="training/EEFeatureEngineeringTrain.txt">EEFeatureEngineeringTrain</li>
+                        <li><input type="radio" name="log_type" value="training/EEFeatureSelectionTrain.txt">EEFeatureSelectionTrain</li>
+                        <li><input type="radio" name="log_type" value="training/EETrainingPipeline.txt">EETrainingPipeline</li>
+                        <li><input type="radio" name="log_type" value="training/EEModelFinder.txt">EEModelFinder</li>
+                    </ul>
+                    <p><input type="submit" value="Check Logs"></p>
 
                 </form>
                 <p>Warning: Training Takes a lot of time</p>

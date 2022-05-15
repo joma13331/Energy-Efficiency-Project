@@ -1,4 +1,1 @@
-2022-05-13/19:24:18		 The prediction data is loaded successfully as a pandas dataframe
-2022-05-13/19:24:32		 The prediction data is loaded successfully as a pandas dataframe
-2022-05-13/19:26:39		 The prediction data is loaded successfully as a pandas dataframe
-2022-05-13/19:27:45		 The prediction data is loaded successfully as a pandas dataframe
+2022-05-15/08:54:03		 The prediction data is loaded successfully as a pandas dataframe
