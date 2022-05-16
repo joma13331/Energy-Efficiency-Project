@@ -3,10 +3,10 @@ import shutil
 from wsgiref import simple_server
 from flask import Flask, render_template, request, url_for
 from flask_cors import cross_origin, CORS
-from Training.EEDataInjestionCompTrain import EEDataInjestionCompTrain
-from Training.EEModelDevelopment import EETrainingPipeline
-from Prediction.EEPredictionPipeline import EEPredictionPipeline
-from Prediction.EEDataInjestionCompPred import EEDataInjestionCompPred
+from EETraining.EEDataInjestionCompTrain import EEDataInjestionCompTrain
+from EETraining.EEModelDevelopment import EETrainingPipeline
+from EEPrediction.EEPredictionPipeline import EEPredictionPipeline
+from EEPrediction.EEDataInjestionCompPred import EEDataInjestionCompPred
 
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
@@ -34,23 +34,23 @@ def ee_train_route():
             if file_item.filename:
                 file_name = "ENB2022_data.xlsx"
 
-                if os.path.isdir("Uploaded_Files"):
-                    shutil.rmtree("Uploaded_Files")
-                    os.mkdir("Uploaded_Files")
+                if os.path.isdir("EEUploaded_Files"):
+                    shutil.rmtree("EEUploaded_Files")
+                    os.mkdir("EEUploaded_Files")
                 else:
-                    os.mkdir("Uploaded_Files")
+                    os.mkdir("EEUploaded_Files")
 
-                with open(os.path.join("Uploaded_Files", file_name), 'wb') as f:
+                with open(os.path.join("EEUploaded_Files", file_name), 'wb') as f:
                     f.write(file_item.read())
 
-                train_validation_obj = EEDataInjestionCompTrain(path="Uploaded_Files")
+                train_validation_obj = EEDataInjestionCompTrain(path="EEUploaded_Files")
                 train_validation_obj.ee_data_injestion_complete()
 
-                if os.path.isdir("Models"):
-                    shutil.rmtree("Models")
-                    os.mkdir("Models")
+                if os.path.isdir("EEModels"):
+                    shutil.rmtree("EEModels")
+                    os.mkdir("EEModels")
                 else:
-                    os.mkdir("Models")
+                    os.mkdir("EEModels")
 
                 training_pipeline = EETrainingPipeline()
                 training_pipeline.ee_model_train()
@@ -67,7 +67,7 @@ def ee_train_route():
     except Exception as e:
         return render_template('train.html', message=f"ERROR: {str(e)}\n TRY AGAIN", image_url=img_url)
 
-    return render_template('train.html', message="Training Successful", image_url=img_url)
+    return render_template('train.html', message="EETraining Successful", image_url=img_url)
 
 
 @app.route('/prediction', methods=["POST"])
@@ -82,17 +82,17 @@ def ee_prediction_route():
             if file_item.filename:
                 file_name = "ENB2022_data.xlsx"
 
-                if os.path.isdir("Uploaded_Files"):
+                if os.path.isdir("EEUploaded_Files"):
                     print()
-                    shutil.rmtree("Uploaded_Files")
-                    os.mkdir("Uploaded_Files")
+                    shutil.rmtree("EEUploaded_Files")
+                    os.mkdir("EEUploaded_Files")
                 else:
-                    os.mkdir("Uploaded_Files")
+                    os.mkdir("EEUploaded_Files")
 
-                with open(os.path.join("Uploaded_Files", file_name), 'wb') as f:
+                with open(os.path.join("EEUploaded_Files", file_name), 'wb') as f:
                     f.write(file_item.read())
 
-                pred_injestion = EEDataInjestionCompPred(path="Uploaded_Files")
+                pred_injestion = EEDataInjestionCompPred(path="EEUploaded_Files")
                 pred_injestion.ee_data_injestion_complete()
 
                 pred_pipeline = EEPredictionPipeline()
@@ -100,9 +100,9 @@ def ee_prediction_route():
 
                 return render_template("predict.html", records=result, image_url=img_url)
             else:
-                message = "Using Default Prediction Dataset"
+                message = "Using Default EEPrediction Dataset"
 
-                pred_injestion = EEDataInjestionCompPred(path="PredDatasets")
+                pred_injestion = EEDataInjestionCompPred(path="EEPredDatasets")
                 pred_injestion.ee_data_injestion_complete()
 
                 pred_pipeline = EEPredictionPipeline()

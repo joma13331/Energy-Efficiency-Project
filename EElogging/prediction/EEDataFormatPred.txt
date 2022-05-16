@@ -1,7 +1,0 @@
-2022-05-15/08:54:01		 Length of year of file = 4, Number of columns = 8
-2022-05-15/08:54:01		 Good and Bad file directory created
-2022-05-15/08:54:01		 ENB2022_data.xlsx is valid!! moved to GoodRaw folder
-2022-05-15/08:54:01		 Column Length Validation Started!!
-2022-05-15/08:54:02		 ENB2022_data.xlsx validated. File remains in Good Folder
-2022-05-15/08:54:02		 Column Length Validation Completed!!
-2022-05-15/08:54:02		 Missing Values Validation Started!!

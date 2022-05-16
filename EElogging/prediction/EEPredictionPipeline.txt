@@ -1,4 +1,0 @@
-2022-05-15/08:54:03		 Start of Prediction Pipeline
-2022-05-15/08:54:03		 Prediction data obtained
-2022-05-15/08:54:03		 Data Preprocessing started
-2022-05-15/08:54:05		 End of Prediction Pipeline
