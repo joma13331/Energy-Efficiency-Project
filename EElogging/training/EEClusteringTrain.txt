@@ -1,0 +1,4 @@
+2022-05-16/17:52:57		 The optimum cluster value obtained is 4 with wcss=1648.8324604355023
+2022-05-16/17:52:57		 EEClustering has been done, with cluster column added to dataset
+2022-05-16/18:26:02		 The optimum cluster value obtained is 4 with wcss=1648.8324604355012
+2022-05-16/18:26:02		 EEClustering has been done, with cluster column added to dataset
