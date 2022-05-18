@@ -24,3 +24,15 @@
 2022-05-18/13:56:34		 accessed the energy_efficiency_internship keyspace
 2022-05-18/13:56:36		 All data from good data table saved to validated_file.csv
 2022-05-18/13:56:38		 Session terminated after downloading good data into csv file from tablegood_data
+2022-05-18/15:23:58		 Connection successful with cassandra database
+2022-05-18/15:23:58		 accessed the energy_efficiency_internship keyspace
+2022-05-18/15:23:59		 The table for Good Data created
+2022-05-18/15:24:00		 Any row if existing deleted
+2022-05-18/15:24:01		 Session terminated create table operation
+2022-05-18/15:24:20		 Connection successful with cassandra database
+2022-05-18/15:24:22		 accessed the energy_efficiency_internship keyspace
+2022-05-18/15:30:38		 Data in ENB2022_data.xlsx uploaded successfully to good_data table
+2022-05-18/15:30:38		 Session terminated insert data operation
+2022-05-18/15:31:03		 Connection Unsuccessful with cassandra database due to Incorrect credentials or no connection fromdatastax
+2022-05-18/15:31:03		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/15:31:03		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)

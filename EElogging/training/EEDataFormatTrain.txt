@@ -22,3 +22,14 @@
 2022-05-18/13:56:16		 GoodRaw directory deleted successfully!!!
 2022-05-18/13:56:16		 Bad files moved to archive: EEDIV/ArchivedData\BadData_2022-05-18_13_56_16
 2022-05-18/13:56:16		 BadRaw directory deleted successfully!!!
+2022-05-18/15:23:39		 Length of year of file = 4, Number of columns = 10
+2022-05-18/15:23:39		 Good and Bad file directory created
+2022-05-18/15:23:39		 ENB2022_data.xlsx is valid!! moved to GoodRaw folder
+2022-05-18/15:23:39		 Column Length Validation Started!!
+2022-05-18/15:23:39		 ENB2022_data.xlsx validated. File remains in Good Folder
+2022-05-18/15:23:39		 Column Length Validation Completed!!
+2022-05-18/15:23:39		 Missing Values Validation Started!!
+2022-05-18/15:23:40		 Excel file Converted directly to required csv file for future preprocessing
+2022-05-18/15:30:38		 GoodRaw directory deleted successfully!!!
+2022-05-18/15:30:38		 Bad files moved to archive: EEDIV/ArchivedData\BadData_2022-05-18_15_30_38
+2022-05-18/15:30:38		 BadRaw directory deleted successfully!!!

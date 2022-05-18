@@ -56,3 +56,15 @@
 2022-05-18/14:39:09		 rfr_Y2_cluster_0.pickle has been save in EEModels/EEMlmodels/
 2022-05-18/14:47:09		 xgb_Y2_cluster_2.pickle has been save in EEModels/EEMlmodels/
 2022-05-18/14:55:54		 rfr_Y2_cluster_3.pickle has been save in EEModels/EEMlmodels/
+2022-05-18/15:23:40		 scalar.pickle has been save in EEModels/
+2022-05-18/15:23:41		 clustering_model_Y1.pickle has been save in EEModels/EEClustering/
+2022-05-18/15:30:05		 xgb_Y1_cluster_1.pickle has been save in EEModels/EEMlmodels/
+2022-05-18/15:37:44		 rfr_Y1_cluster_0.pickle has been save in EEModels/EEMlmodels/
+2022-05-18/15:45:14		 rfr_Y1_cluster_2.pickle has been save in EEModels/EEMlmodels/
+2022-05-18/15:54:14		 svr_Y1_cluster_3.pickle has been save in EEModels/EEMlmodels/
+2022-05-18/15:54:14		 scalar.pickle has been save in EEModels/
+2022-05-18/15:54:15		 clustering_model_Y2.pickle has been save in EEModels/EEClustering/
+2022-05-18/16:02:59		 xgb_Y2_cluster_1.pickle has been save in EEModels/EEMlmodels/
+2022-05-18/16:11:16		 rfr_Y2_cluster_0.pickle has been save in EEModels/EEMlmodels/
+2022-05-18/16:19:22		 xgb_Y2_cluster_2.pickle has been save in EEModels/EEMlmodels/
+2022-05-18/16:28:09		 rfr_Y2_cluster_3.pickle has been save in EEModels/EEMlmodels/

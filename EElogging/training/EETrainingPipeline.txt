@@ -50,3 +50,29 @@
 2022-05-18/14:47:09		 Start of training for output Y2 cluster3
 2022-05-18/14:55:54		 Model for cluster 3 trained
 2022-05-18/14:55:54		 Successful End of EETraining
+2022-05-18/15:23:40		 Start of EETraining Pipeline
+2022-05-18/15:23:40		 Validated data obtained
+2022-05-18/15:23:40		 Data Preprocessing started
+2022-05-18/15:23:40		 Data Preprocessing completed
+2022-05-18/15:23:40		 clustering of dataset started
+2022-05-18/15:23:41		 clustering of dataset done
+2022-05-18/15:23:41		 Start of training for output Y1 cluster1
+2022-05-18/15:30:05		 Model for cluster 1 trained
+2022-05-18/15:30:05		 Start of training for output Y1 cluster0
+2022-05-18/15:37:44		 Model for cluster 0 trained
+2022-05-18/15:37:44		 Start of training for output Y1 cluster2
+2022-05-18/15:45:14		 Model for cluster 2 trained
+2022-05-18/15:45:14		 Start of training for output Y1 cluster3
+2022-05-18/15:54:14		 Model for cluster 3 trained
+2022-05-18/15:54:14		 Data Preprocessing completed
+2022-05-18/15:54:14		 clustering of dataset started
+2022-05-18/15:54:15		 clustering of dataset done
+2022-05-18/15:54:15		 Start of training for output Y2 cluster1
+2022-05-18/16:02:59		 Model for cluster 1 trained
+2022-05-18/16:02:59		 Start of training for output Y2 cluster0
+2022-05-18/16:11:16		 Model for cluster 0 trained
+2022-05-18/16:11:16		 Start of training for output Y2 cluster2
+2022-05-18/16:19:22		 Model for cluster 2 trained
+2022-05-18/16:19:22		 Start of training for output Y2 cluster3
+2022-05-18/16:28:09		 Model for cluster 3 trained
+2022-05-18/16:28:09		 Successful End of EETraining
