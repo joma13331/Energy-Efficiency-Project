@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 html {
   box-sizing: border-box;
 }
@@ -9,7 +10,6 @@ html {
 body {
   font-family: Georgia, serif;
   font-size: 100%;
-  background-color: white;
   padding: 2em;
   padding-top: 0;
   line-height: 1.5em;
@@ -29,7 +29,8 @@ body {
     
 }
 #project_name{
-    grid-area: project_name;   
+    grid-area: project_name;
+    justify-content: center;
 }
 
 #logo{
@@ -38,12 +39,16 @@ body {
 
 #pred_result{
     grid-area: table;
+    justify-self: center;
     justify-content: center;
+
 }
 
 h2 {
     text-align: center;
 }
-td th {
-    border: 1px solid gray;
+
+#table_result, th, td, tr {
+  border: 1px solid black;
+  text-align: center;
 }

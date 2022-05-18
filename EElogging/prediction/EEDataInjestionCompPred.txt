@@ -1,0 +1,133 @@
+2022-05-18/18:22:11		 Start of Injestion and Validation
+2022-05-18/18:22:12		 Raw EEPrediction Data Validation complete
+2022-05-18/18:22:12		 Start of Data Transformation
+2022-05-18/18:22:13		 Data Transformation Complete
+2022-05-18/18:22:13		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:22:13		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:22:13		 End of Injestion and Validation
+2022-05-18/18:23:14		 Start of Injestion and Validation
+2022-05-18/18:23:14		 Raw EEPrediction Data Validation complete
+2022-05-18/18:23:14		 Start of Data Transformation
+2022-05-18/18:23:15		 Data Transformation Complete
+2022-05-18/18:23:15		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:23:15		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:23:15		 End of Injestion and Validation
+2022-05-18/18:26:28		 Start of Injestion and Validation
+2022-05-18/18:26:29		 Raw EEPrediction Data Validation complete
+2022-05-18/18:26:29		 Start of Data Transformation
+2022-05-18/18:26:29		 Data Transformation Complete
+2022-05-18/18:26:29		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:26:29		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:26:29		 End of Injestion and Validation
+2022-05-18/18:27:13		 Start of Injestion and Validation
+2022-05-18/18:27:13		 Raw EEPrediction Data Validation complete
+2022-05-18/18:27:13		 Start of Data Transformation
+2022-05-18/18:27:13		 Data Transformation Complete
+2022-05-18/18:27:13		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:27:13		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:27:13		 End of Injestion and Validation
+2022-05-18/18:29:40		 Start of Injestion and Validation
+2022-05-18/18:29:40		 Raw EEPrediction Data Validation complete
+2022-05-18/18:29:40		 Start of Data Transformation
+2022-05-18/18:29:40		 Data Transformation Complete
+2022-05-18/18:29:40		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:29:40		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:29:40		 End of Injestion and Validation
+2022-05-18/18:30:46		 Start of Injestion and Validation
+2022-05-18/18:30:46		 Raw EEPrediction Data Validation complete
+2022-05-18/18:30:46		 Start of Data Transformation
+2022-05-18/18:30:47		 Data Transformation Complete
+2022-05-18/18:30:47		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:30:47		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:30:47		 End of Injestion and Validation
+2022-05-18/18:31:01		 Start of Injestion and Validation
+2022-05-18/18:31:01		 Raw EEPrediction Data Validation complete
+2022-05-18/18:31:01		 Start of Data Transformation
+2022-05-18/18:31:02		 Data Transformation Complete
+2022-05-18/18:31:02		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:31:02		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:31:02		 End of Injestion and Validation
+2022-05-18/18:56:59		 Start of Injestion and Validation
+2022-05-18/18:56:59		 Raw EEPrediction Data Validation complete
+2022-05-18/18:56:59		 Start of Data Transformation
+2022-05-18/18:57:00		 Data Transformation Complete
+2022-05-18/18:57:00		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:57:00		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:57:00		 End of Injestion and Validation
+2022-05-18/18:57:53		 Start of Injestion and Validation
+2022-05-18/18:57:53		 Raw EEPrediction Data Validation complete
+2022-05-18/18:57:53		 Start of Data Transformation
+2022-05-18/18:57:54		 Data Transformation Complete
+2022-05-18/18:57:54		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:57:54		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:57:54		 End of Injestion and Validation
+2022-05-18/18:59:25		 Start of Injestion and Validation
+2022-05-18/18:59:25		 Raw EEPrediction Data Validation complete
+2022-05-18/18:59:25		 Start of Data Transformation
+2022-05-18/18:59:26		 Data Transformation Complete
+2022-05-18/18:59:26		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:59:26		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:59:26		 End of Injestion and Validation
+2022-05-18/18:59:30		 Start of Injestion and Validation
+2022-05-18/18:59:30		 Raw EEPrediction Data Validation complete
+2022-05-18/18:59:30		 Start of Data Transformation
+2022-05-18/18:59:31		 Data Transformation Complete
+2022-05-18/18:59:31		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:59:31		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/18:59:31		 End of Injestion and Validation
+2022-05-18/19:00:58		 Start of Injestion and Validation
+2022-05-18/19:00:58		 Raw EEPrediction Data Validation complete
+2022-05-18/19:00:58		 Start of Data Transformation
+2022-05-18/19:00:59		 Data Transformation Complete
+2022-05-18/19:00:59		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:00:59		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:00:59		 End of Injestion and Validation
+2022-05-18/19:01:02		 Start of Injestion and Validation
+2022-05-18/19:01:02		 Raw EEPrediction Data Validation complete
+2022-05-18/19:01:02		 Start of Data Transformation
+2022-05-18/19:01:03		 Data Transformation Complete
+2022-05-18/19:01:03		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:01:03		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:01:03		 End of Injestion and Validation
+2022-05-18/19:01:06		 Start of Injestion and Validation
+2022-05-18/19:01:07		 Raw EEPrediction Data Validation complete
+2022-05-18/19:01:07		 Start of Data Transformation
+2022-05-18/19:01:07		 Data Transformation Complete
+2022-05-18/19:01:07		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:01:07		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:01:07		 End of Injestion and Validation
+2022-05-18/19:02:34		 Start of Injestion and Validation
+2022-05-18/19:02:34		 Raw EEPrediction Data Validation complete
+2022-05-18/19:02:34		 Start of Data Transformation
+2022-05-18/19:02:34		 Data Transformation Complete
+2022-05-18/19:02:34		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:02:34		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:02:34		 End of Injestion and Validation
+2022-05-18/19:02:38		 Start of Injestion and Validation
+2022-05-18/19:02:39		 Raw EEPrediction Data Validation complete
+2022-05-18/19:02:39		 Start of Data Transformation
+2022-05-18/19:02:39		 Data Transformation Complete
+2022-05-18/19:02:39		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:02:39		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:02:39		 End of Injestion and Validation
+2022-05-18/19:03:06		 Start of Injestion and Validation
+2022-05-18/19:03:06		 Raw EEPrediction Data Validation complete
+2022-05-18/19:03:06		 Start of Data Transformation
+2022-05-18/19:03:07		 Data Transformation Complete
+2022-05-18/19:03:07		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:03:07		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:03:07		 End of Injestion and Validation
+2022-05-18/19:03:09		 Start of Injestion and Validation
+2022-05-18/19:03:09		 Raw EEPrediction Data Validation complete
+2022-05-18/19:03:09		 Start of Data Transformation
+2022-05-18/19:03:09		 Data Transformation Complete
+2022-05-18/19:03:09		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:03:09		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:03:09		 End of Injestion and Validation
+2022-05-18/19:03:40		 Start of Injestion and Validation
+2022-05-18/19:03:40		 Raw EEPrediction Data Validation complete
+2022-05-18/19:03:40		 Start of Data Transformation
+2022-05-18/19:03:40		 Data Transformation Complete
+2022-05-18/19:03:40		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:03:40		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-18/19:03:40		 End of Injestion and Validation

@@ -1,0 +1,64 @@
+2022-05-18/18:22:30		 Connection successful with cassandra database
+2022-05-18/18:22:31		 accessed the energy_efficiency_internship keyspace
+2022-05-18/18:22:31		 The table for Good Data created
+2022-05-18/18:22:32		 Any row if existing deleted
+2022-05-18/18:22:33		 Session terminated create table operation
+2022-05-18/18:22:50		 Connection successful with cassandra database
+2022-05-18/18:22:51		 accessed the energy_efficiency_internship keyspace
+2022-05-18/18:23:33		 Connection successful with cassandra database
+2022-05-18/18:23:33		 accessed the energy_efficiency_internship keyspace
+2022-05-18/18:23:34		 The table for Good Data created
+2022-05-18/18:23:36		 Any row if existing deleted
+2022-05-18/18:23:36		 Session terminated create table operation
+2022-05-18/18:23:51		 Connection successful with cassandra database
+2022-05-18/18:23:52		 accessed the energy_efficiency_internship keyspace
+2022-05-18/18:27:32		 Connection successful with cassandra database
+2022-05-18/18:27:33		 accessed the energy_efficiency_internship keyspace
+2022-05-18/18:27:33		 The table for Good Data created
+2022-05-18/18:27:34		 Any row if existing deleted
+2022-05-18/18:27:34		 Session terminated create table operation
+2022-05-18/18:27:51		 Connection successful with cassandra database
+2022-05-18/18:27:52		 accessed the energy_efficiency_internship keyspace
+2022-05-18/18:30:05		 Connection successful with cassandra database
+2022-05-18/18:30:06		 accessed the energy_efficiency_internship keyspace
+2022-05-18/18:30:07		 The table for Good Data created
+2022-05-18/18:30:08		 Any row if existing deleted
+2022-05-18/18:30:09		 Session terminated create table operation
+2022-05-18/18:30:36		 Connection successful with cassandra database
+2022-05-18/18:30:37		 accessed the energy_efficiency_internship keyspace
+2022-05-18/18:31:19		 Connection successful with cassandra database
+2022-05-18/18:31:20		 accessed the energy_efficiency_internship keyspace
+2022-05-18/18:31:20		 The table for Good Data created
+2022-05-18/18:31:22		 Any row if existing deleted
+2022-05-18/18:31:22		 Session terminated create table operation
+2022-05-18/18:31:54		 Connection successful with cassandra database
+2022-05-18/18:31:55		 accessed the energy_efficiency_internship keyspace
+2022-05-18/18:38:37		 Data in ENB2012_data.xlsx uploaded successfully to good_pred_data table
+2022-05-18/18:38:37		 Session terminated insert data operation
+2022-05-18/18:39:09		 Connection Unsuccessful with cassandra database due to Incorrect credentials
+2022-05-18/18:39:09		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/18:39:09		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/18:57:28		 Connection Unsuccessful with cassandra database due to Incorrect credentials
+2022-05-18/18:57:28		 The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/18:57:28		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/18:58:22		 Connection Unsuccessful with cassandra database due to Incorrect credentials
+2022-05-18/18:58:22		 The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/18:58:22		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/18:59:55		 Connection Unsuccessful with cassandra database due to Incorrect credentials
+2022-05-18/18:59:55		 The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/18:59:55		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/19:00:00		 Connection Unsuccessful with cassandra database due to Incorrect credentials
+2022-05-18/19:00:00		 The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/19:00:00		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/19:01:27		 Connection Unsuccessful with cassandra database due to Incorrect credentials
+2022-05-18/19:01:27		 The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/19:01:27		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/19:01:29		 Connection Unsuccessful with cassandra database due to Incorrect credentials
+2022-05-18/19:01:29		 The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/19:01:29		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/19:01:35		 Connection Unsuccessful with cassandra database due to Incorrect credentials
+2022-05-18/19:01:35		 The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/19:01:35		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/19:04:09		 Connection Unsuccessful with cassandra database due to Incorrect credentials
+2022-05-18/19:04:09		 The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
+2022-05-18/19:04:09		 Error while downloading good data into csv file: __init__() takes exactly 3 positional arguments (1 given)
