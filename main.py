@@ -58,7 +58,7 @@ def ee_train_route():
                 t1.start()
             else:
                 message = "No records Found\n TRY AGAIN"
-                return render_template("predict.html", message=message, image_url=img_url)
+                return render_template("train.html", message=message, image_url=img_url)
 
     except ValueError as e:
         return render_template('train.html', message=f"ERROR: {str(e)}\n TRY AGAIN", image_url=img_url)
