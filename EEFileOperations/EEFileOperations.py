@@ -22,7 +22,7 @@ class EEFileOperation:
         if not os.path.isdir("EElogging/"):
             os.mkdir("EElogging/")
 
-        self.log_path = "EElogging/file_operations.txt"
+        self.log_path = "EElogging/EEFileOperation.txt"
 
     def ee_save_model(self, model, model_dir, model_name):
         """

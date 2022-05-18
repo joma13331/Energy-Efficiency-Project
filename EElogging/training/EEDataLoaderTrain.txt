@@ -1,3 +1,0 @@
-2022-05-16/17:52:56		 The training data is loaded successfully as a pandas dataframe
-2022-05-18/13:50:40		 The training data is loaded successfully as a pandas dataframe
-2022-05-18/15:23:40		 The training data is loaded successfully as a pandas dataframe
