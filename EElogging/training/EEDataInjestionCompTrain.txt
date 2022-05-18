@@ -4,3 +4,9 @@
 2022-05-16/17:52:56		 Data Transformation Complete
 2022-05-16/17:52:56		 Start of upload of the Good Data to Cassandra Database
 2022-05-16/17:52:56		 End of Injestion and Validation
+2022-05-18/13:50:38		 Start of Injestion and Validation
+2022-05-18/13:50:39		 Raw Data Validation complete
+2022-05-18/13:50:39		 Start of Data Transformation
+2022-05-18/13:50:40		 Data Transformation Complete
+2022-05-18/13:50:40		 Start of upload of the Good Data to Cassandra Database
+2022-05-18/13:50:40		 End of Injestion and Validation

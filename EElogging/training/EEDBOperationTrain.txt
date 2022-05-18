@@ -11,3 +11,16 @@
 2022-05-16/18:00:51		 accessed the energy_efficiency_internship keyspace
 2022-05-16/18:00:53		 All data from good data table saved to validated_file.csv
 2022-05-16/18:00:53		 Session terminated after downloading good data into csv file from tablegood_data
+2022-05-18/13:50:55		 Connection successful with cassandra database
+2022-05-18/13:50:55		 accessed the energy_efficiency_internship keyspace
+2022-05-18/13:50:56		 The table for Good Data created
+2022-05-18/13:50:56		 Any row if existing deleted
+2022-05-18/13:50:58		 Session terminated create table operation
+2022-05-18/13:51:25		 Connection successful with cassandra database
+2022-05-18/13:51:26		 accessed the energy_efficiency_internship keyspace
+2022-05-18/13:56:16		 Data in ENB2022_data.xlsx uploaded successfully to good_data table
+2022-05-18/13:56:16		 Session terminated insert data operation
+2022-05-18/13:56:33		 Connection successful with cassandra database
+2022-05-18/13:56:34		 accessed the energy_efficiency_internship keyspace
+2022-05-18/13:56:36		 All data from good data table saved to validated_file.csv
+2022-05-18/13:56:38		 Session terminated after downloading good data into csv file from tablegood_data

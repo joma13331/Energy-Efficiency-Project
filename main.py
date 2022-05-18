@@ -1,5 +1,6 @@
 import os
 import shutil
+import threading
 from wsgiref import simple_server
 from flask import Flask, render_template, request, url_for
 from flask_cors import cross_origin, CORS
@@ -53,7 +54,8 @@ def ee_train_route():
                     os.mkdir("EEModels")
 
                 training_pipeline = EETrainingPipeline()
-                training_pipeline.ee_model_train()
+                t1 = threading.Thread(target=training_pipeline.ee_model_train)
+                t1.start()
             else:
                 message = "No records Found\n TRY AGAIN"
                 return render_template("predict.html", message=message, image_url=img_url)
@@ -67,7 +69,8 @@ def ee_train_route():
     except Exception as e:
         return render_template('train.html', message=f"ERROR: {str(e)}\n TRY AGAIN", image_url=img_url)
 
-    return render_template('train.html', message="EETraining Successful", image_url=img_url)
+    return render_template('train.html', message="Dataset validated.Training Started. Visit the web Application after "
+                                                 "1hr to perform prediction.", image_url=img_url)
 
 
 @app.route('/prediction', methods=["POST"])

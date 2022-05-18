@@ -28,7 +28,7 @@ class EEModelFinder:
         self.log_path = "EElogging/training/EEModelFinder.txt"
         self.logger = EELogger()
 
-        self.rfr = RandomForestRegressor(n_jobs=-1, verbose=3)
+        self.rfr = RandomForestRegressor(n_jobs=-1, verbose=0)
         self.xgb = XGBRegressor()
         self.ridge = Ridge()
         self.lasso = Lasso()
@@ -75,7 +75,7 @@ class EEModelFinder:
                                 cv=self.kfold, n_jobs=-1,
                                 scoring={'n-mse': 'neg_mean_squared_error',
                                          'adjusted-R2': self.ee_adj_r2},
-                                refit='adjusted-R2', verbose=3)
+                                refit='adjusted-R2', verbose=0)
 
             grid.fit(train_x, train_y)
 
@@ -128,7 +128,7 @@ class EEModelFinder:
                                 cv=self.kfold, n_jobs=-1,
                                 scoring={'n-mse': 'neg_mean_squared_error',
                                          'adjusted-R2': self.ee_adj_r2},
-                                refit='adjusted-R2', verbose=3)
+                                refit='adjusted-R2', verbose=0)
 
             grid.fit(train_x, train_y)
 
@@ -186,7 +186,7 @@ class EEModelFinder:
                                 cv=self.kfold, n_jobs=-1,
                                 scoring={'n-mse': 'neg_mean_squared_error',
                                          'adjusted-R2': self.ee_adj_r2},
-                                refit='adjusted-R2', verbose=3)
+                                refit='adjusted-R2', verbose=0)
 
             grid.fit(train_x, train_y)
 
@@ -248,7 +248,7 @@ class EEModelFinder:
                                       cv=self.kfold, n_jobs=-1,
                                       scoring={'n-mse': 'neg_mean_squared_error',
                                                'adjusted-R2': self.ee_adj_r2},
-                                      refit='adjusted-R2', verbose=3)
+                                      refit='adjusted-R2', verbose=0)
 
             grid.fit(train_x, train_y)
 
@@ -264,7 +264,7 @@ class EEModelFinder:
                       f",ccp_alpha={ccp_alpha} with the adjusted R2 score of {score}"
             self.logger.log(log_file, message)
 
-            self.rfr = RandomForestRegressor(n_jobs=-1, verbose=3,
+            self.rfr = RandomForestRegressor(n_jobs=-1, verbose=0,
                                              n_estimators=n_estimators, criterion=criterion,
                                              min_samples_split=min_samples_split,
                                              max_features=max_features, ccp_alpha=ccp_alpha
@@ -303,7 +303,7 @@ class EEModelFinder:
                 'colsample_bytree': [.1, .2, .3, .4, .5, .6, .7, .8],
                 'max_depth': [3, 5, 10],
                 'n_estimators': [30, 100, 300, 1000],
-                "verbosity": [3]
+                "verbosity": [0]
             }
 
             message = f"Using GridSearchCV to obtain the optimum parameters({param_grid.keys()}) of xgb regressor"
@@ -314,7 +314,7 @@ class EEModelFinder:
                                       cv=self.kfold, n_jobs=-1,
                                       scoring={'n-mse': 'neg_mean_squared_error',
                                                'adjusted-R2': self.ee_adj_r2},
-                                      refit='adjusted-R2', verbose=3)
+                                      refit='adjusted-R2', verbose=0)
             grid.fit(train_x, train_y)
 
             learning_rate = grid.best_params_['learning_rate']
@@ -328,7 +328,7 @@ class EEModelFinder:
                       f"with the adjusted R2 score of {score}"
             self.logger.log(log_file, message)
 
-            self.xgb = XGBRegressor(n_jobs=-1, verbose=3, learning_rate=learning_rate,
+            self.xgb = XGBRegressor(n_jobs=-1, verbose=0, learning_rate=learning_rate,
                                     colsample_bytree=colsample_bytree,
                                     max_depth=max_depth, n_estimators=n_estimators)
 

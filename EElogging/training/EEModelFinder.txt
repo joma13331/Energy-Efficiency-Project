@@ -214,3 +214,219 @@
 2022-05-16/18:56:32		 Search for best random forest regressor model ended
 2022-05-16/18:56:32		 Search for best xgb regressor model started
 2022-05-16/19:00:15		 Search for best xgb regressor model ended
+2022-05-18/13:50:41		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'solver']))  of Ridge Regressor
+2022-05-18/13:50:48		  The optimum parameters of Ridge Regressor are alpha=2.7505363079308, solver=sag with the adjusted R2 score of 0.6858793673799816
+2022-05-18/13:50:48		 Best Ridge Regressor trained
+2022-05-18/13:50:48		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'selection']))  of Lasso Regressor
+2022-05-18/13:50:49		  The optimum parameters of Lasso Regressor are alpha=0.1517212394388434, selection=random with the adjusted R2 score of 0.6792369711512105
+2022-05-18/13:50:49		 Best Lasso Regressor trained
+2022-05-18/13:50:49		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['kernel', 'gamma', 'C', 'degree', 'epsilon'])) of SVR
+2022-05-18/13:50:55		  The optimum parameters of SVR are kernel=rbf, gamma=auto, C=3, degree =2, epsilon=0.1 with the adjusted R2 score of 0.7804321631914175
+2022-05-18/13:50:55		 Best SVR trained
+2022-05-18/13:50:55		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest regressor 
+2022-05-18/13:54:23		  The optimum parameters of random forrest regressor are n_estimators=150, criterion=mae, min_samples_split=3, max_features =auto,ccp_alpha=0.007 with the adjusted R2 score of 0.985767330657249
+2022-05-18/13:54:24		 Best random forest regressor trained
+2022-05-18/13:54:24		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb regressor
+2022-05-18/13:58:12		  The optimum parameters of xgb-regressor are learning_rate=0.3, max_depth=3, colsample_bytree=0.8, n_estimators =100 with the adjusted R2 score of 0.9917804400570415
+2022-05-18/13:58:12		 Best xgb regressor trained
+2022-05-18/13:58:12		 The best model is xgb regressor
+2022-05-18/13:50:41		 Search for best model started
+2022-05-18/13:50:41		 Search for best ridge model started
+2022-05-18/13:50:48		 Search for best ridge model ended
+2022-05-18/13:50:48		 Search for best lasso model started
+2022-05-18/13:50:49		 Search for best lasso model ended
+2022-05-18/13:50:49		 Search for best svr model started
+2022-05-18/13:50:55		 Search for best svr model ended
+2022-05-18/13:50:55		 Search for best random forest regressor model started
+2022-05-18/13:54:24		 Search for best random forest regressor model ended
+2022-05-18/13:54:24		 Search for best xgb regressor model started
+2022-05-18/13:58:12		 Search for best xgb regressor model ended
+2022-05-18/13:58:12		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'solver']))  of Ridge Regressor
+2022-05-18/13:58:17		  The optimum parameters of Ridge Regressor are alpha=0.12803028328602917, solver=sag with the adjusted R2 score of 0.9917855033794357
+2022-05-18/13:58:17		 Best Ridge Regressor trained
+2022-05-18/13:58:17		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'selection']))  of Lasso Regressor
+2022-05-18/13:58:20		  The optimum parameters of Lasso Regressor are alpha=0.007208602765744754, selection=random with the adjusted R2 score of 0.9917956760388652
+2022-05-18/13:58:20		 Best Lasso Regressor trained
+2022-05-18/13:58:20		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['kernel', 'gamma', 'C', 'degree', 'epsilon'])) of SVR
+2022-05-18/13:58:30		  The optimum parameters of SVR are kernel=linear, gamma=scale, C=3, degree =2, epsilon=0.3 with the adjusted R2 score of 0.9913170549668651
+2022-05-18/13:58:30		 Best SVR trained
+2022-05-18/13:58:30		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest regressor 
+2022-05-18/14:02:45		  The optimum parameters of random forrest regressor are n_estimators=50, criterion=mae, min_samples_split=2, max_features =auto,ccp_alpha=0.007 with the adjusted R2 score of 0.9975970216409846
+2022-05-18/14:02:45		 Best random forest regressor trained
+2022-05-18/14:02:45		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb regressor
+2022-05-18/14:06:30		  The optimum parameters of xgb-regressor are learning_rate=0.3, max_depth=3, colsample_bytree=0.7, n_estimators =100 with the adjusted R2 score of 0.9976131025217356
+2022-05-18/14:06:30		 Best xgb regressor trained
+2022-05-18/14:06:30		 The best model is random forest regressor
+2022-05-18/13:58:12		 Search for best model started
+2022-05-18/13:58:12		 Search for best ridge model started
+2022-05-18/13:58:17		 Search for best ridge model ended
+2022-05-18/13:58:17		 Search for best lasso model started
+2022-05-18/13:58:20		 Search for best lasso model ended
+2022-05-18/13:58:20		 Search for best svr model started
+2022-05-18/13:58:30		 Search for best svr model ended
+2022-05-18/13:58:30		 Search for best random forest regressor model started
+2022-05-18/14:02:45		 Search for best random forest regressor model ended
+2022-05-18/14:02:45		 Search for best xgb regressor model started
+2022-05-18/14:06:30		 Search for best xgb regressor model ended
+2022-05-18/14:06:30		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'solver']))  of Ridge Regressor
+2022-05-18/14:06:34		  The optimum parameters of Ridge Regressor are alpha=0.23814418328815923, solver=saga with the adjusted R2 score of 0.5517744956563607
+2022-05-18/14:06:34		 Best Ridge Regressor trained
+2022-05-18/14:06:34		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'selection']))  of Lasso Regressor
+2022-05-18/14:06:36		  The optimum parameters of Lasso Regressor are alpha=0.5105317499054385, selection=random with the adjusted R2 score of 0.44673006184569547
+2022-05-18/14:06:36		 Best Lasso Regressor trained
+2022-05-18/14:06:36		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['kernel', 'gamma', 'C', 'degree', 'epsilon'])) of SVR
+2022-05-18/14:06:46		  The optimum parameters of SVR are kernel=rbf, gamma=scale, C=3, degree =2, epsilon=1 with the adjusted R2 score of 0.550572353572185
+2022-05-18/14:06:46		 Best SVR trained
+2022-05-18/14:06:46		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest regressor 
+2022-05-18/14:10:51		  The optimum parameters of random forrest regressor are n_estimators=130, criterion=mse, min_samples_split=3, max_features =auto,ccp_alpha=0.01 with the adjusted R2 score of 0.9851912813635776
+2022-05-18/14:10:51		 Best random forest regressor trained
+2022-05-18/14:10:51		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb regressor
+2022-05-18/14:14:57		  The optimum parameters of xgb-regressor are learning_rate=0.3, max_depth=3, colsample_bytree=0.8, n_estimators =30 with the adjusted R2 score of 0.9848031761402666
+2022-05-18/14:14:57		 Best xgb regressor trained
+2022-05-18/14:14:57		 The best model is random forest regressor
+2022-05-18/14:06:30		 Search for best model started
+2022-05-18/14:06:30		 Search for best ridge model started
+2022-05-18/14:06:34		 Search for best ridge model ended
+2022-05-18/14:06:34		 Search for best lasso model started
+2022-05-18/14:06:36		 Search for best lasso model ended
+2022-05-18/14:06:36		 Search for best svr model started
+2022-05-18/14:06:46		 Search for best svr model ended
+2022-05-18/14:06:46		 Search for best random forest regressor model started
+2022-05-18/14:10:51		 Search for best random forest regressor model ended
+2022-05-18/14:10:51		 Search for best xgb regressor model started
+2022-05-18/14:14:57		 Search for best xgb regressor model ended
+2022-05-18/14:14:57		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'solver']))  of Ridge Regressor
+2022-05-18/14:15:01		  The optimum parameters of Ridge Regressor are alpha=1.3025395441312604, solver=sag with the adjusted R2 score of 0.8836296927452005
+2022-05-18/14:15:01		 Best Ridge Regressor trained
+2022-05-18/14:15:01		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'selection']))  of Lasso Regressor
+2022-05-18/14:15:02		  The optimum parameters of Lasso Regressor are alpha=0.08906188874966636, selection=random with the adjusted R2 score of 0.8619964944277152
+2022-05-18/14:15:02		 Best Lasso Regressor trained
+2022-05-18/14:15:02		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['kernel', 'gamma', 'C', 'degree', 'epsilon'])) of SVR
+2022-05-18/14:15:12		  The optimum parameters of SVR are kernel=rbf, gamma=scale, C=3, degree =2, epsilon=0.03 with the adjusted R2 score of 0.9100844961857566
+2022-05-18/14:15:12		 Best SVR trained
+2022-05-18/14:15:12		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest regressor 
+2022-05-18/14:19:16		  The optimum parameters of random forrest regressor are n_estimators=130, criterion=mae, min_samples_split=2, max_features =auto,ccp_alpha=0.003 with the adjusted R2 score of 0.9383932397936151
+2022-05-18/14:19:17		 Best random forest regressor trained
+2022-05-18/14:19:17		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb regressor
+2022-05-18/14:23:17		  The optimum parameters of xgb-regressor are learning_rate=0.03, max_depth=5, colsample_bytree=0.8, n_estimators =300 with the adjusted R2 score of 0.9362437061589404
+2022-05-18/14:23:18		 Best xgb regressor trained
+2022-05-18/14:23:18		 The best model is svr
+2022-05-18/14:14:57		 Search for best model started
+2022-05-18/14:14:57		 Search for best ridge model started
+2022-05-18/14:15:01		 Search for best ridge model ended
+2022-05-18/14:15:01		 Search for best lasso model started
+2022-05-18/14:15:02		 Search for best lasso model ended
+2022-05-18/14:15:02		 Search for best svr model started
+2022-05-18/14:15:12		 Search for best svr model ended
+2022-05-18/14:15:12		 Search for best random forest regressor model started
+2022-05-18/14:19:17		 Search for best random forest regressor model ended
+2022-05-18/14:19:17		 Search for best xgb regressor model started
+2022-05-18/14:23:18		 Search for best xgb regressor model ended
+2022-05-18/14:23:19		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'solver']))  of Ridge Regressor
+2022-05-18/14:23:23		  The optimum parameters of Ridge Regressor are alpha=1.9254059273064161, solver=lsqr with the adjusted R2 score of 0.6838564699045702
+2022-05-18/14:23:23		 Best Ridge Regressor trained
+2022-05-18/14:23:23		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'selection']))  of Lasso Regressor
+2022-05-18/14:23:25		  The optimum parameters of Lasso Regressor are alpha=0.09910017372992685, selection=cyclic with the adjusted R2 score of 0.6804163243280005
+2022-05-18/14:23:25		 Best Lasso Regressor trained
+2022-05-18/14:23:25		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['kernel', 'gamma', 'C', 'degree', 'epsilon'])) of SVR
+2022-05-18/14:23:34		  The optimum parameters of SVR are kernel=rbf, gamma=auto, C=3, degree =2, epsilon=1 with the adjusted R2 score of 0.7762455909675149
+2022-05-18/14:23:34		 Best SVR trained
+2022-05-18/14:23:34		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest regressor 
+2022-05-18/14:27:21		  The optimum parameters of random forrest regressor are n_estimators=50, criterion=mse, min_samples_split=5, max_features =auto,ccp_alpha=0.011 with the adjusted R2 score of 0.9144764190684358
+2022-05-18/14:27:21		 Best random forest regressor trained
+2022-05-18/14:27:21		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb regressor
+2022-05-18/14:31:20		  The optimum parameters of xgb-regressor are learning_rate=0.3, max_depth=3, colsample_bytree=0.2, n_estimators =100 with the adjusted R2 score of 0.9286888295684642
+2022-05-18/14:31:20		 Best xgb regressor trained
+2022-05-18/14:31:20		 The best model is xgb regressor
+2022-05-18/14:23:19		 Search for best model started
+2022-05-18/14:23:19		 Search for best ridge model started
+2022-05-18/14:23:23		 Search for best ridge model ended
+2022-05-18/14:23:23		 Search for best lasso model started
+2022-05-18/14:23:25		 Search for best lasso model ended
+2022-05-18/14:23:25		 Search for best svr model started
+2022-05-18/14:23:34		 Search for best svr model ended
+2022-05-18/14:23:34		 Search for best random forest regressor model started
+2022-05-18/14:27:21		 Search for best random forest regressor model ended
+2022-05-18/14:27:21		 Search for best xgb regressor model started
+2022-05-18/14:31:20		 Search for best xgb regressor model ended
+2022-05-18/14:31:20		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'solver']))  of Ridge Regressor
+2022-05-18/14:31:24		  The optimum parameters of Ridge Regressor are alpha=0.284772546250327, solver=sag with the adjusted R2 score of 0.9647487045073466
+2022-05-18/14:31:24		 Best Ridge Regressor trained
+2022-05-18/14:31:24		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'selection']))  of Lasso Regressor
+2022-05-18/14:31:26		  The optimum parameters of Lasso Regressor are alpha=0.2296139105663142, selection=cyclic with the adjusted R2 score of 0.9661938189769457
+2022-05-18/14:31:26		 Best Lasso Regressor trained
+2022-05-18/14:31:26		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['kernel', 'gamma', 'C', 'degree', 'epsilon'])) of SVR
+2022-05-18/14:31:35		  The optimum parameters of SVR are kernel=linear, gamma=scale, C=3, degree =2, epsilon=1 with the adjusted R2 score of 0.9684436697427208
+2022-05-18/14:31:35		 Best SVR trained
+2022-05-18/14:31:35		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest regressor 
+2022-05-18/14:35:44		  The optimum parameters of random forrest regressor are n_estimators=100, criterion=mse, min_samples_split=5, max_features =log2,ccp_alpha=0.002 with the adjusted R2 score of 0.9758057847417417
+2022-05-18/14:35:44		 Best random forest regressor trained
+2022-05-18/14:35:44		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb regressor
+2022-05-18/14:39:09		  The optimum parameters of xgb-regressor are learning_rate=0.3, max_depth=5, colsample_bytree=0.7, n_estimators =30 with the adjusted R2 score of 0.9723583636905884
+2022-05-18/14:39:09		 Best xgb regressor trained
+2022-05-18/14:39:09		 The best model is random forest regressor
+2022-05-18/14:31:20		 Search for best model started
+2022-05-18/14:31:20		 Search for best ridge model started
+2022-05-18/14:31:24		 Search for best ridge model ended
+2022-05-18/14:31:24		 Search for best lasso model started
+2022-05-18/14:31:26		 Search for best lasso model ended
+2022-05-18/14:31:26		 Search for best svr model started
+2022-05-18/14:31:35		 Search for best svr model ended
+2022-05-18/14:31:35		 Search for best random forest regressor model started
+2022-05-18/14:35:44		 Search for best random forest regressor model ended
+2022-05-18/14:35:44		 Search for best xgb regressor model started
+2022-05-18/14:39:09		 Search for best xgb regressor model ended
+2022-05-18/14:39:09		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'solver']))  of Ridge Regressor
+2022-05-18/14:39:13		  The optimum parameters of Ridge Regressor are alpha=0.13222067813075, solver=sag with the adjusted R2 score of 0.3838652773695851
+2022-05-18/14:39:13		 Best Ridge Regressor trained
+2022-05-18/14:39:13		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'selection']))  of Lasso Regressor
+2022-05-18/14:39:15		  The optimum parameters of Lasso Regressor are alpha=0.3053816659018338, selection=random with the adjusted R2 score of 0.34688808860337106
+2022-05-18/14:39:15		 Best Lasso Regressor trained
+2022-05-18/14:39:15		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['kernel', 'gamma', 'C', 'degree', 'epsilon'])) of SVR
+2022-05-18/14:39:25		  The optimum parameters of SVR are kernel=linear, gamma=scale, C=3, degree =2, epsilon=1 with the adjusted R2 score of 0.38386875923737296
+2022-05-18/14:39:25		 Best SVR trained
+2022-05-18/14:39:25		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest regressor 
+2022-05-18/14:43:35		  The optimum parameters of random forrest regressor are n_estimators=50, criterion=mse, min_samples_split=5, max_features =sqrt,ccp_alpha=0.006 with the adjusted R2 score of 0.6478089998926391
+2022-05-18/14:43:35		 Best random forest regressor trained
+2022-05-18/14:43:35		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb regressor
+2022-05-18/14:47:08		  The optimum parameters of xgb-regressor are learning_rate=0.1, max_depth=3, colsample_bytree=0.4, n_estimators =300 with the adjusted R2 score of 0.709735356253504
+2022-05-18/14:47:09		 Best xgb regressor trained
+2022-05-18/14:47:09		 The best model is xgb regressor
+2022-05-18/14:39:09		 Search for best model started
+2022-05-18/14:39:09		 Search for best ridge model started
+2022-05-18/14:39:13		 Search for best ridge model ended
+2022-05-18/14:39:13		 Search for best lasso model started
+2022-05-18/14:39:15		 Search for best lasso model ended
+2022-05-18/14:39:15		 Search for best svr model started
+2022-05-18/14:39:25		 Search for best svr model ended
+2022-05-18/14:39:25		 Search for best random forest regressor model started
+2022-05-18/14:43:35		 Search for best random forest regressor model ended
+2022-05-18/14:43:35		 Search for best xgb regressor model started
+2022-05-18/14:47:09		 Search for best xgb regressor model ended
+2022-05-18/14:47:09		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'solver']))  of Ridge Regressor
+2022-05-18/14:47:13		  The optimum parameters of Ridge Regressor are alpha=0.7401129662577699, solver=sparse_cg with the adjusted R2 score of 0.8063034549341366
+2022-05-18/14:47:13		 Best Ridge Regressor trained
+2022-05-18/14:47:13		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['alpha', 'selection']))  of Lasso Regressor
+2022-05-18/14:47:15		  The optimum parameters of Lasso Regressor are alpha=0.011233784880710918, selection=random with the adjusted R2 score of 0.8058240326982746
+2022-05-18/14:47:15		 Best Lasso Regressor trained
+2022-05-18/14:47:15		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['kernel', 'gamma', 'C', 'degree', 'epsilon'])) of SVR
+2022-05-18/14:47:24		  The optimum parameters of SVR are kernel=poly, gamma=scale, C=3, degree =3, epsilon=0.1 with the adjusted R2 score of 0.8682734607919196
+2022-05-18/14:47:24		 Best SVR trained
+2022-05-18/14:47:24		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest regressor 
+2022-05-18/14:51:29		  The optimum parameters of random forrest regressor are n_estimators=150, criterion=mae, min_samples_split=2, max_features =auto,ccp_alpha=0.001 with the adjusted R2 score of 0.9205439097193808
+2022-05-18/14:51:30		 Best random forest regressor trained
+2022-05-18/14:51:30		 Using GridSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb regressor
+2022-05-18/14:55:54		  The optimum parameters of xgb-regressor are learning_rate=0.01, max_depth=10, colsample_bytree=0.8, n_estimators =1000 with the adjusted R2 score of 0.9095690919742289
+2022-05-18/14:55:54		 Best xgb regressor trained
+2022-05-18/14:55:54		 The best model is random forest regressor
+2022-05-18/14:47:09		 Search for best model started
+2022-05-18/14:47:09		 Search for best ridge model started
+2022-05-18/14:47:13		 Search for best ridge model ended
+2022-05-18/14:47:13		 Search for best lasso model started
+2022-05-18/14:47:15		 Search for best lasso model ended
+2022-05-18/14:47:15		 Search for best svr model started
+2022-05-18/14:47:24		 Search for best svr model ended
+2022-05-18/14:47:24		 Search for best random forest regressor model started
+2022-05-18/14:51:30		 Search for best random forest regressor model ended
+2022-05-18/14:51:30		 Search for best xgb regressor model started
+2022-05-18/14:55:54		 Search for best xgb regressor model ended

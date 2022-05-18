@@ -7,3 +7,12 @@
 2022-05-16/18:26:00		 The features which have no or very impact on the output are ['X6']
 2022-05-16/18:26:00		  The following columns have high correlation with other columns {'X4', 'X2', 'X5'}
 2022-05-16/18:26:00		 The following columns were dropped: ['X4', 'X6', 'X2', 'X5']
+2022-05-18/13:50:40		 The following columns were dropped: ID
+2022-05-18/13:50:40		 the features with all values as equal are []
+2022-05-18/13:50:40		 The features which have no or very impact on the output are ['X6']
+2022-05-18/13:50:40		  The following columns have high correlation with other columns {'X5', 'X2', 'X4'}
+2022-05-18/13:50:40		 The following columns were dropped: ['X5', 'X2', 'X6', 'X4']
+2022-05-18/14:23:18		 the features with all values as equal are []
+2022-05-18/14:23:18		 The features which have no or very impact on the output are ['X6']
+2022-05-18/14:23:18		  The following columns have high correlation with other columns {'X5', 'X2', 'X4'}
+2022-05-18/14:23:18		 The following columns were dropped: ['X5', 'X2', 'X6', 'X4']
