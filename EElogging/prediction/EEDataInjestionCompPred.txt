@@ -1,0 +1,7 @@
+2022-05-28/09:43:37		 Start of Injestion and Validation
+2022-05-28/09:43:38		 Raw EEPrediction Data Validation complete
+2022-05-28/09:43:38		 Start of Data Transformation
+2022-05-28/09:43:39		 Data Transformation Complete
+2022-05-28/09:43:39		 Start of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-28/09:43:39		 End of upload of the Good EEPrediction Data to Cassandra Database
+2022-05-28/09:43:39		 End of Injestion and Validation

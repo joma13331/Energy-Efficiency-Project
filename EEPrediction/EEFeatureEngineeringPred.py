@@ -1,8 +1,10 @@
 import os
+import pickle
 import numpy as np
 import pandas as pd
 from EElogging.EELogger import EELogger
 from sklearn.impute import KNNImputer
+from EEFileOperations.EEFileOperations import EEFileOperation
 from sklearn.preprocessing import StandardScaler
 
 
@@ -24,6 +26,8 @@ class EEFeatureEngineeringPred:
                       Initializes variables for logging
         """
         self.logger = EELogger()
+        self.file_operator = EEFileOperation()
+        self.scaler_path = "EEModels/scaler.pickle"
         if not os.path.isdir("EElogging/prediction/"):
             os.mkdir("EElogging/prediction/")
         self.log_path = "EElogging/prediction/EEFeatureEngineeringPred.txt"
@@ -38,8 +42,8 @@ class EEFeatureEngineeringPred:
         """
         try:
             log_file = open(self.log_path, 'a+')
-            scaler = StandardScaler()
-            scaled_df = pd.DataFrame(scaler.fit_transform(dataframe), columns=dataframe.columns)
+            scaler = self.file_operator.ee_load_model(self.scaler_path)
+            scaled_df = pd.DataFrame(scaler.transform(dataframe), columns=dataframe.columns)
             message = "The dataset has been scaled using Standard Scalar"
             self.logger.log(log_file, message)
             log_file.close()

@@ -1,0 +1,4 @@
+2022-05-28/09:43:39		 Start of EEPrediction Pipeline
+2022-05-28/09:43:39		 EEPrediction data obtained
+2022-05-28/09:43:39		 Data Preprocessing started
+2022-05-28/09:43:41		 End of EEPrediction Pipeline

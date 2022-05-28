@@ -1,0 +1,7 @@
+2022-05-28/09:43:52		 Connection successful with cassandra database
+2022-05-28/09:43:53		 accessed the energy_efficiency_internship keyspace
+2022-05-28/09:43:53		 The table for Good Data created
+2022-05-28/09:43:54		 Any row if existing deleted
+2022-05-28/09:43:55		 Session terminated create table operation
+2022-05-28/09:44:10		 Connection successful with cassandra database
+2022-05-28/09:44:10		 accessed the energy_efficiency_internship keyspace
